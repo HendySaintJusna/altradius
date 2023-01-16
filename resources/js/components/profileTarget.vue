@@ -521,7 +521,7 @@
 
             this.total_reach = reach_total + this.user.followers
 
-            this.url.urlpage = '/'+this.user.url_account
+            this.url.urlpage = 'https://www.altradius.com/'+this.user.url_account
             // this.url.qrvalue = 'https://www.creworth.com/'+this.user.url_account
 
             if (this.user.avatar == 'null') {

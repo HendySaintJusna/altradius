@@ -418,7 +418,7 @@
             },
 
             go_to_profile (url) {
-              window.location = '/'+url
+              window.location = 'https://www.altradius.com/'+url
             },
 
             social_network_logo(x){
@@ -713,7 +713,7 @@
 
             this.notifications.data = this.noti
 
-            this.url.urlpage = '/'+this.user.url_account
+            this.url.urlpage = 'https://www.altradius.com/'+this.user.url_account
 
             if (this.user.avatar == 'null') {
                 this.avatar.image='/files/img/user.png'
