@@ -2421,7 +2421,7 @@ __webpack_require__.r(__webpack_exports__);
       console.log('error', value);
     },
     go_to_profile: function go_to_profile(url) {
-      window.location = '/' + url;
+      window.location = 'https://www.altradius.com/' + url;
     },
     social_network_logo: function social_network_logo(x) {
       if (x == 'Facebook') {
@@ -2639,7 +2639,7 @@ __webpack_require__.r(__webpack_exports__);
     });
     this.total_reach = reach_total + this.user.followers;
     this.notifications.data = this.noti;
-    this.url.urlpage = '/' + this.user.url_account;
+    this.url.urlpage = 'https://www.altradius.com/' + this.user.url_account;
 
     if (this.user.avatar == 'null') {
       this.avatar.image = '/files/img/user.png';
@@ -3137,7 +3137,7 @@ __webpack_require__.r(__webpack_exports__);
       reach_total += reach;
     });
     this.total_reach = reach_total + this.user.followers;
-    this.url.urlpage = '/' + this.user.url_account; // this.url.qrvalue = 'https://www.creworth.com/'+this.user.url_account
+    this.url.urlpage = 'https://www.altradius.com/' + this.user.url_account; // this.url.qrvalue = 'https://www.creworth.com/'+this.user.url_account
 
     if (this.user.avatar == 'null') {
       this.avatar.image = '/files/img/user.png';
