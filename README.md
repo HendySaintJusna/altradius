@@ -1,5 +1,5 @@
 <h1>Altradius</h2>
-<p>Altradius is a web application that uses the twitter API allowing you to show your exclusive connections in the crypto world to everyone. </p>
+<p>Altradius is a web application that uses Twitter API information allowing you to show everyone your exclusive connections in the crypto world. </p>
 
 <h1>What I learned</h1>
 <ul>  
